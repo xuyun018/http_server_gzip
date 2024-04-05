@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="zlib131">
+      <UniqueIdentifier>{42662f2b-cdde-48a2-9576-86b4209ad414}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\adler32.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\compress.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\crc32.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\deflate.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\gzclose.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\gzlib.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\gzwrite.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\infback.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\inffast.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\inflate.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\inftrees.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\trees.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\uncompr.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib131\zutil.c">
+      <Filter>zlib131</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zlib131\crc32.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\deflate.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\gzguts.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\inffast.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\inffixed.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\inflate.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\inftrees.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\trees.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\zconf.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\zlib.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib131\zutil.h">
+      <Filter>zlib131</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
