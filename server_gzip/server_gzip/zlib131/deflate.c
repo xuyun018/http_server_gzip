@@ -1,4 +1,4 @@
-/* deflate.c -- compress data using the deflation algorithm
+﻿/* deflate.c -- compress data using the deflation algorithm
  * Copyright (C) 1995-2024 Jean-loup Gailly and Mark Adler
  * For conditions of distribution and use, see copyright notice in zlib.h
  */
@@ -494,7 +494,10 @@ int ZEXPORT deflateInit2_(z_streamp strm, int level, int method,
      */
 
     s->pending_buf = (uchf *) ZALLOC(strm, s->lit_bufsize, LIT_BUFS);
-	s->pending_buf_size = (ulg)s->lit_bufsize * LIT_BUFS;
+	// The names are a little misleading in the LIT_MEM case. 
+	// The pending buffer is not all of the pending_buf allocation.
+	// Not * LIT_BUFS
+	s->pending_buf_size = (ulg)s->lit_bufsize * 4;
 
     if (s->window == Z_NULL || s->prev == Z_NULL || s->head == Z_NULL ||
         s->pending_buf == Z_NULL) {
